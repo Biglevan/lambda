@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node -r dotenv/config app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.57.0"
+  }
+}

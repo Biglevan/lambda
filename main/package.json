@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "authentication": "cd authentication && node server.js",
+    "correctarium": "cd correctarium && node server.js",
+    "correctarium_test": "cd correctarium && node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "geolocation": "cd geolocation && node app.js",
+    "giveaway": "cd giveaway && node index.js",
+    "json_sorting": "cd json_sorting && node index.js",
+    "json_storage": "cd json_storage && node server.js",
+    "vacation_grouping": "cd vacation_grouping && node app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "mongodb": "^4.7.0",
+    "redis": "^4.1.0"
+  }
+}

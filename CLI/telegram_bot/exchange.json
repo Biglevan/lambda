@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "ccy": "USD",
+      "base_ccy": "UAH",
+      "buy": "35.20000",
+      "sale": "35.75000"
+    },
+    {
+      "ccy": "EUR",
+      "base_ccy": "UAH",
+      "buy": "37.30000",
+      "sale": "38.20000"
+    },
+    {
+      "ccy": "BTC",
+      "base_ccy": "USD",
+      "buy": "28276.9461",
+      "sale": "31253.4667"
+    }
+  ],
+  [
+    {
+      "ccy": "USD",
+      "base_ccy": "UAH",
+      "buy": "29.25490",
+      "sale": "32.67974"
+    },
+    {
+      "ccy": "EUR",
+      "base_ccy": "UAH",
+      "buy": "31.28080",
+      "sale": "34.96503"
+    },
+    {
+      "ccy": "RUR",
+      "base_ccy": "UAH",
+      "buy": "0.32000",
+      "sale": "0.35001"
+    },
+    {
+      "ccy": "BTC",
+      "base_ccy": "USD",
+      "buy": "28276.9461",
+      "sale": "31253.4667"
+    }
+  ],
+  [
+    {
+      "currencyCodeA": 840,
+      "currencyCodeB": 980,
+      "date": 1654290607,
+      "rateBuy": 31.5,
+      "rateSell": 32.5998
+    },
+    {
+      "currencyCodeA": 978,
+      "currencyCodeB": 980,
+      "date": 1654290607,
+      "rateBuy": 33.5,
+      "rateSell": 34.9004
+    }
+  ]
+]
