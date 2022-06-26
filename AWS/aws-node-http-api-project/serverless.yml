@@ -1,0 +1,47 @@
+org: biglevan
+app: aws-node-http-api-project
+service: aws-node-http-api-project
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: eu-central-1
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /
+          method: get
+  firstPositive:
+    handler: handler.firstPositive
+    events:
+      - httpApi:
+          path: /firstPositive
+          method: post
+  sumPositive:
+    handler: handler.sumPositive
+    events:
+      - httpApi:
+          path: /sumPositive
+          method: post
+  nResult:
+    handler: handler.nResult
+    events:
+      - httpApi:
+          path: /nResult
+          method: post
+  numDate:
+    handler: handler.numDate
+    events:
+      - httpApi:
+          path: /numDate
+          method: get
+  userSort:
+    handler: handler.userSort
+    events:
+      - httpApi:
+          path: /userSort
+          method: post
